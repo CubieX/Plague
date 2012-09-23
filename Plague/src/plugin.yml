@@ -1,0 +1,14 @@
+name: Plague
+main: com.github.CubieX.Plague.Plague
+version: 0.1
+description: Getting bitten by monsters gives some side effects 
+
+commands:
+    plague:
+      description: Using Plague
+      usage: /plague version | reload
+
+permissions:
+    plague.admin:
+        description: Allows use of all commands
+        default: op
